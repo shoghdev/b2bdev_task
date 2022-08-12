@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 15px;
+  padding: 0;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+header .wrap {
+  margin-top: 50px;
+}
+
+footer .wrap {
+  margin-bottom: 50px;
+}
+
+input, 
+select,
+button {
+    padding: 5px;
+}
+
+select option {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+fieldset {
+    margin: 20px 0;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  display: none
+}
+
+.btn  input[type=radio]:checked ~ label,
+.btn  input[type=checkbox]:checked ~ label {
+  background-color: #acacd2;
+}
+
+.field .btn:nth-child(2n) {
+  margin: 0 15px;  
+}
+
+.inner {
+  margin: 20px 0;
+}
+
+.inner .avatar {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.info .name span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin-left: 15px;
+}
